@@ -3,7 +3,6 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives import serialization
 import argparse
 
-
 parser = argparse.ArgumentParser()
 parser.add_argument("-g", "--gen_key", action="store_true",
                     help="Generate pub and prive rsa key")
