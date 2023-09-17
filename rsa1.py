@@ -13,7 +13,6 @@ parser.add_argument("-e", "--encrypt", action="store_true",
 parser.add_argument("-d", "--decrypt", action="store_true",
                     help="Decrypt encrypted text")
 
-
 args = parser.parse_args()
 if args.gen_key:
     print("Generate key")
